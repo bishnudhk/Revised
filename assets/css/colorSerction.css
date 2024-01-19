@@ -1,0 +1,45 @@
+.colors {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.color {
+  margin-right: 30px;
+  float: left;
+}
+.primary {
+  background-color: var(--primary);
+}
+.color__rect {
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.color-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.primary-dark {
+  background-color: var(--primary-dark);
+}
+.primary-light {
+  background-color: var(--primary-light);
+}
+.secondary {
+  background-color: var(--secondary);
+}
+.secondary-dark {
+  background-color: var(--secondary-dark);
+}
+.secondary-light {
+  background-color: var(--secondary-light);
+}
+.status {
+  background-color: var(--success);
+}
+.status-dark {
+  background-color: var(--danger);
+}
+.status-light {
+  background-color: var(--warning);
+}

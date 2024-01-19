@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: fixed;
+  /* Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) 
+  and flex items (elements that are direct children of display:flex elements). */
+  z-index: 20;
+  background-color: var(--gray-bg);
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.navbar a {
+  color: var(--secondary-dark);
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar li {
+  float: left;
+  margin-right: 25px;
+  line-height: 90px;
+}
+.navbar-left {
+  float: left;
+}
+.navbar-logo a {
+  font-weight: bold;
+  margin-right: 80px;
+  font-size: 25px;
+  color: var(--gray-900);
+}
+.navbar-right {
+  float: right;
+}
+.navbar-right .navbar-right-input {
+  margin-right: 5px;
+}
+.navbar-right input {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #abb5be78;
+}
+.navbar-right-button button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--success);
+  color: var(--success);
+}
