@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff2e1;
+  padding: 30px 80px;
+}
+.navbar__logo {
+  width: 150px;
+  height: 83px;
+}
+
+.navbar__links {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  position: static;
+}
+.navbar__link {
+  float: right;
+  margin-right: 50px;
+}
+.navbar__link a {
+  color: var(--text-gray);
+  font-size: 20px;
+}
+.navbar__button {
+  margin-right: 44px;
+}

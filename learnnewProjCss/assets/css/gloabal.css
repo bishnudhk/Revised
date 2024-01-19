@@ -41,3 +41,27 @@ a:hover,
 a:link {
   text-decoration: none;
 }
+
+.btn {
+  color: white;
+  font-weight: bold;
+  padding: 20px 60px;
+  border-radius: 38px;
+  display: inline;
+  transition: 300ms ease;
+  color: var(--primary);
+}
+
+.btn--primary-outline {
+  border: 1 px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+}
+.btn--primary-outline:hover {
+  background-color: var(--primary);
+  color: white;
+}
+.btn--about {
+  background-color: var(--primary);
+  color: white;
+}
