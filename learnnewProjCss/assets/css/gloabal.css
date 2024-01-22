@@ -49,7 +49,8 @@ a:link {
   border-radius: 38px;
   display: inline;
   transition: 300ms ease;
-  color: var(--primary);
+
+  background-color: var(--primary);
 }
 
 .btn--primary-outline {
@@ -64,4 +65,77 @@ a:link {
 .btn--about {
   background-color: var(--primary);
   color: white;
+}
+
+/* Fix color classes */
+.color-primary {
+  color: var(--primary);
+}
+
+.color-secondary {
+  color: var(--secondary);
+}
+/* Icons inside circular wrapper */
+.wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: gray;
+  position: relative;
+}
+.wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper--blue {
+  background: #5b72ee;
+  box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+}
+
+.wrapper--orange {
+  background: #f48c06;
+  box-shadow: 0px 16px 40px rgba(37, 44, 113, 0.1);
+}
+
+.wrapper--skyblue {
+  background: #29b9e7;
+  box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-weight: 700;
+  font-size: var(--primary-header);
+  line-height: 81px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: var(--secondary-header);
+  line-height: 65px;
+}
+
+h3 {
+  font-size: var(--tertiary-header);
+  font-weight: 500;
+  /*line-height: 45px;*/
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  padding: 15px 50px;
+}
+p {
+  font-size: 18px;
+  color: var(--text-gray);
 }

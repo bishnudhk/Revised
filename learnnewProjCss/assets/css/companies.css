@@ -1,0 +1,21 @@
+.companies {
+  margin-bottom: 160px;
+}
+.companies h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--text-gray);
+}
+.companies__logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.companies__logo > img {
+  margin: 18px 36px;
+  width: 105px;
+}

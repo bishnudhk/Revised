@@ -1,0 +1,57 @@
+.physical .container {
+  width: 75%;
+}
+.physical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  margin-bottom: 50px;
+}
+.physical_content {
+  text-align: left;
+  max-width: 730px;
+  margin-right: 80px;
+  margin-bottom: 0;
+}
+.physical h2 {
+  font-weight: 600;
+  margin-bottom: 40px;
+  line-height: 40px;
+}
+.physical p {
+  text-align: left;
+  text-align-last: left;
+  margin-bottom: 40px;
+}
+
+.physical_content a {
+  text-decoration: underline;
+  font-size: medium;
+}
+.physical__img {
+  position: relative;
+}
+.physical .wrapper {
+  background-color: white;
+}
+.wrapper .play {
+  top: 70%;
+}
+.square_blue {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  width: 138px;
+  height: 138px;
+}
+.square_orange {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  z-index: -1;
+  width: 138px;
+  height: 138px;
+}
