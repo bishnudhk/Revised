@@ -45,11 +45,11 @@ a:link {
 .btn {
   color: white;
   font-weight: bold;
-  padding: 20px 60px;
+  padding: 20px 40px;
   border-radius: 38px;
   display: inline;
   transition: 300ms ease;
-
+  border: 1 px solid var(--primary);
   background-color: var(--primary);
 }
 
