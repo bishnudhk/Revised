@@ -1,0 +1,28 @@
+.navbar {
+  /* background-color: antiquewhite; */
+  overflow: hidden;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.navbar__logo {
+  float: left;
+  margin-right: 180px;
+  /* margin-bottom: 50px; */
+}
+.nav__links {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.hamburger {
+  display: none;
+}
+.nav__links li {
+  /* font-size: 22px; */
+  display: flex;
+  /* margin-right: 60px; */
+  margin-bottom: 41px;
+}

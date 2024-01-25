@@ -1,0 +1,30 @@
+.hero {
+  overflow: hidden;
+  margin-bottom: 150px;
+  position: relative;
+}
+.hero__right {
+  /* display: flex; */
+  float: right;
+  width: 50%;
+}
+.hero__right img {
+  width: 100%;
+}
+.hero__left {
+  float: left;
+  width: 50%;
+}
+.hero__content {
+  padding: 156px 0;
+  max-width: 378px;
+}
+.hero__content h1 {
+  margin-bottom: 30px;
+}
+.hero__content p {
+  font-size: var(--large);
+  opacity: 0.5;
+  margin-bottom: 50px;
+  line-height: 35px;
+}
